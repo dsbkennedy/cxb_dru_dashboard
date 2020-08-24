@@ -34,7 +34,7 @@ source(here('modules','login.R'))
 
 gs4_deauth()
 
-##import all necessary files from gsheet
+##import all necessary files from Google sheet
 sheet_names <- c('dru', 'quarantine')
 
 #plan(multiprocess)
